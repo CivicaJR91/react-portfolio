@@ -3,6 +3,9 @@ import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import "./portfolio.css";
+import burger from "./images/burger.png"
+import password from "./images/password.png"
+import calendar from "./images/calendar.png"
 
 function Portfolio(){
     return( 
@@ -17,9 +20,9 @@ function Portfolio(){
            </div>
            <CardDeck>
         <Card>
-          <Card.Img variant="top" src="/images/burger.png" />
+          <Card.Img className="img" id= "img1" variant="top" src={calendar}  style={{width:"450px", height:"250px"}}/>
           <Card.Body>
-            <Card.Title className="lead">Work Day Scheduler</Card.Title>
+            <Card.Title className="lead ttl">Work Day Scheduler</Card.Title>
             <Card.Text className="lead">
             Schedule important meetings or project thur a working day. Hours will change colors if is past, present, or future.
             </Card.Text>
@@ -29,9 +32,9 @@ function Portfolio(){
           </div>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img  className="img" variant="top" src={password} style={{width:"450px", height:"250px"}}/>
           <Card.Body>
-            <Card.Title className="lead"> Password Generator</Card.Title>
+            <Card.Title className="lead ttl"> Password Generator</Card.Title>
             <Card.Text className="lead">
             Need helps getting secute passowords? Use my password generator. Follow the prompt steps to generate a password.{' '}
             </Card.Text>
@@ -41,9 +44,9 @@ function Portfolio(){
           </div>
         </Card>
         <Card class="cards">
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img  className="img" variant="top" src={burger} style={{width:"502px", height:"250px"}} />
           <Card.Body>
-            <Card.Title className="lead">Burger Logger App</Card.Title>
+            <Card.Title className="lead ttl">Burger Logger App</Card.Title>
             <Card.Text className="lead">
             It's a CLI Application using Express Handlebars.All data is created and stores in MySQL.
             </Card.Text>

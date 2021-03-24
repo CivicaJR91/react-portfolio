@@ -6,7 +6,21 @@ h1{
     display:flex;
     justify-content:center;
 align-items: center;
+margin-bottom: 10px;
     
 
 }
 
+.ttl{
+  font-weight: bold;
+ 
+
+}
+
+
+/* Media Quesries*/
+@media (min-width: 1024px) {
+    #img1{
+        width: 4px;
+    }
+}

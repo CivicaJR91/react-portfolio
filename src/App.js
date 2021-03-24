@@ -5,11 +5,13 @@ import AboutMe from "./components/pages/AboutMe/AboutMe";
 import Portfolio from "./components/pages/Portfolio/Portfolio";
 import ContactMe from "./components/pages/ContactMe/ContactMe";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 
 
 function App() {
   return (
+    <div>
     <Router>
       <div>
         <Navbar />
@@ -18,7 +20,10 @@ function App() {
         <Route exact path ="/ContactMe" component = {ContactMe} />
       </div>
     </Router>
-
+    <di>
+    <Footer />
+    </di>
+    </div>
   );
 }
 

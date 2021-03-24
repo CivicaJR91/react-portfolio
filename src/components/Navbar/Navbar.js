@@ -6,10 +6,11 @@ function Navbar() {
   const location = useLocation();
 
   return (
+    <div id="nav">
     <ul className="nav justify-content-end">
       
-      <li className="nav-item">
-        <Link to="/" className={location.pathname === "/aboutme" ? "nav-link active" : "nav-link"}>
+      <li id="nav" className="nav-item">
+        <Link id="nav" to="/" className={location.pathname === "/aboutme" ? "nav-link active" : "nav-link"}>
           About Me
         </Link>
       </li>
@@ -31,6 +32,7 @@ function Navbar() {
       </li>
      
     </ul>
+    </div>
   );
 }
 

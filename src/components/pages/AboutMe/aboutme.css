@@ -1,0 +1,14 @@
+#container{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+

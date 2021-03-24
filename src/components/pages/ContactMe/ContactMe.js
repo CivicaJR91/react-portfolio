@@ -1,6 +1,7 @@
 import React from "react";
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import "./contactme.css";
 
 
 function ContactMe() {
@@ -10,19 +11,24 @@ function ContactMe() {
 
             <h1 className="display-4">Contact Me!</h1>
             <p className="lead">Feel free to send me a message.</p>
+            <div class="form">
 
             <Form>
-                <Form.Group controlId="exampleForm.ControlInput1">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Group controlId="exampleForm.ControlInput1" style={{width:"500px", alignContent:"center"}}>
+                    <Form.Label className="lead">Enter Email Address</Form.Label>
+                    <Form.Control className="lead" type="email" placeholder="name@example.com" />
                 </Form.Group>
 
-                <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                <Form.Group controlId="exampleForm.ControlTextarea1" style={{width:"500px", alignContent:"center"}}>
+                    <Form.Label className="lead" >Enter Your message</Form.Label>
+                    <Form.Control className="lead" as="textarea" rows={3} />
                 </Form.Group>
             </Form>
-            <Button type="submit">Submit form</Button>
+        
+            </div>
+            <div id= "button">
+            <Button className="lead" type="submit">Submit</Button>
+            </div>
 
         </div>
     )

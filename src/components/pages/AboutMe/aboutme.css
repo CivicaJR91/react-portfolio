@@ -12,3 +12,23 @@ h1{
     font-size: 15px;
 }
 
+#link{
+    display:flex;
+    justify-content:center;
+align-items: center;
+margin-top: 15px;
+}
+
+#resume{
+    display:flex;
+    justify-content:center;
+align-items: center;
+margin-top: 15px;
+}
+#git{
+    display:flex;
+    justify-content:center;
+align-items: center;
+
+}
+

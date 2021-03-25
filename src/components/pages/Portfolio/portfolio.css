@@ -19,8 +19,31 @@ margin-bottom: 10px;
 
 
 /* Media Quesries*/
-@media (min-width: 1024px) {
-    #img1{
-        width: 4px;
+@media (min-width: 768px) {
+    .button{
+
+        margin-top: 60px;
+
     }
+    
+}
+
+@media (min-width: 375px) {
+    #title{
+     
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    
+}
+
+@media (max-width: 360px) {
+    #title{
+     
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
 }

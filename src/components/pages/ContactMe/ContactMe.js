@@ -9,19 +9,19 @@ function ContactMe() {
         <div>
 
 
-            <h1 className="display-4">Contact Me!</h1>
+            <h1 id="ttl" className="display-4">Contact Me!</h1>
             <p className="lead">Feel free to send me a message.</p>
             <div class="form">
 
             <Form>
-                <Form.Group controlId="exampleForm.ControlInput1" style={{width:"500px", alignContent:"center"}}>
+                <Form.Group controlId="exampleForm.ControlInput1" style={{ alignContent:"center"}}>
                     <Form.Label className="lead">Enter Email Address</Form.Label>
-                    <Form.Control className="lead" type="email" placeholder="name@example.com" />
+                    <Form.Control className="lead field" type="email" placeholder="name@example.com" />
                 </Form.Group>
 
-                <Form.Group controlId="exampleForm.ControlTextarea1" style={{width:"500px", alignContent:"center"}}>
+                <Form.Group controlId="exampleForm.ControlTextarea1" style={{alignContent:"center"}}>
                     <Form.Label className="lead" >Enter Your message</Form.Label>
-                    <Form.Control className="lead" as="textarea" rows={3} />
+                    <Form.Control className="lead field" as="textarea" rows={3} />
                 </Form.Group>
             </Form>
         

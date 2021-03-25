@@ -6,7 +6,7 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <div id="nav">
+    <div >
     <ul className="nav justify-content-end">
       
       <li id="nav" className="nav-item">

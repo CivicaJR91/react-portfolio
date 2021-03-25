@@ -52,3 +52,24 @@ align-items: center;
   
 }
 
+@media (min-width: 375px) {
+    #janimg{
+        margin-left: 50%;
+     
+     }
+
+#link{
+    margin-left: 0px;
+    
+}
+
+#resume{
+    margin-left: 0px;
+}
+
+#git{
+    margin-left: 0px;
+}
+
+
+}

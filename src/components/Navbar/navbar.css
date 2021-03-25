@@ -1,9 +1,17 @@
-#nav{
-    color: aliceblue;
-}
 
 .nav-link{
 
     color: aliceblue;
 
+}
+@media (max-width: 280px){
+
+    .field{
+        width: 200px;
+    }
+    .nav-link{
+        display:flex;
+        justify-content:center;
+    align-items: center;
+    }
 }

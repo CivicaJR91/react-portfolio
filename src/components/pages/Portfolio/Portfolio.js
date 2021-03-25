@@ -11,7 +11,7 @@ function Portfolio(){
     return( 
        <div>
            <div>
-               <h1 className="display-4">
+               <h1 id="title" className="display-4">
                Welcome to my portfolio
                </h1>
                <p className="lead">
@@ -20,7 +20,7 @@ function Portfolio(){
            </div>
            <CardDeck>
         <Card>
-          <Card.Img className="img" id= "img1" variant="top" src={calendar}  style={{width:"450px", height:"250px"}}/>
+          <Card.Img className="img" variant="top" src={calendar}  style={{width:"100%", height:"50%"}}/>
           <Card.Body>
             <Card.Title className="lead ttl">Work Day Scheduler</Card.Title>
             <Card.Text className="lead">
@@ -32,7 +32,7 @@ function Portfolio(){
           </div>
         </Card>
         <Card>
-          <Card.Img  className="img" variant="top" src={password} style={{width:"450px", height:"250px"}}/>
+          <Card.Img  className="img" variant="top" src={password} style={{width:"100%", height:"50%"}}/>
           <Card.Body>
             <Card.Title className="lead ttl"> Password Generator</Card.Title>
             <Card.Text className="lead">
@@ -44,7 +44,7 @@ function Portfolio(){
           </div>
         </Card>
         <Card class="cards">
-          <Card.Img  className="img" variant="top" src={burger} style={{width:"502px", height:"250px"}} />
+          <Card.Img  className="img" variant="top" src={burger} style={{width:"112%", height:"50%"}} />
           <Card.Body>
             <Card.Title className="lead ttl">Burger Logger App</Card.Title>
             <Card.Text className="lead">

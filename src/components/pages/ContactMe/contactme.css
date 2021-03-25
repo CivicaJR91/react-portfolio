@@ -14,3 +14,39 @@ margin-top: 50px;
 align-items: center;
     
 }
+
+.field{
+    width: 600px;
+}
+
+@media (max-width: 1024px){
+
+    .field{
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .field{
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .field{
+        width: 300px;
+    }
+}
+
+@media (max-width: 280px){
+
+    .field{
+        width: 200px;
+    }
+    #ttl{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

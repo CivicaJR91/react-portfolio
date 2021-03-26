@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/CivicaJR91/react-portfolio/static/css/main.4aa2dbea.chunk.css",
+    "main.js": "/CivicaJR91/react-portfolio/static/js/main.31971348.chunk.js",
+    "main.js.map": "/CivicaJR91/react-portfolio/static/js/main.31971348.chunk.js.map",
+    "runtime-main.js": "/CivicaJR91/react-portfolio/static/js/runtime-main.a7bdceb0.js",
+    "runtime-main.js.map": "/CivicaJR91/react-portfolio/static/js/runtime-main.a7bdceb0.js.map",
+    "static/js/2.7d6b122a.chunk.js": "/CivicaJR91/react-portfolio/static/js/2.7d6b122a.chunk.js",
+    "static/js/2.7d6b122a.chunk.js.map": "/CivicaJR91/react-portfolio/static/js/2.7d6b122a.chunk.js.map",
+    "static/js/3.4ff0b4b8.chunk.js": "/CivicaJR91/react-portfolio/static/js/3.4ff0b4b8.chunk.js",
+    "static/js/3.4ff0b4b8.chunk.js.map": "/CivicaJR91/react-portfolio/static/js/3.4ff0b4b8.chunk.js.map",
+    "index.html": "/CivicaJR91/react-portfolio/index.html",
+    "static/css/main.4aa2dbea.chunk.css.map": "/CivicaJR91/react-portfolio/static/css/main.4aa2dbea.chunk.css.map",
+    "static/js/2.7d6b122a.chunk.js.LICENSE.txt": "/CivicaJR91/react-portfolio/static/js/2.7d6b122a.chunk.js.LICENSE.txt",
+    "static/media/Janliz-Suarez-CRM-MARKETING.3a14b6d9.pdf": "/CivicaJR91/react-portfolio/static/media/Janliz-Suarez-CRM-MARKETING.3a14b6d9.pdf",
+    "static/media/burger.5199b8f6.png": "/CivicaJR91/react-portfolio/static/media/burger.5199b8f6.png",
+    "static/media/calendar.94e805cf.png": "/CivicaJR91/react-portfolio/static/media/calendar.94e805cf.png",
+    "static/media/jan.0514702a.jpg": "/CivicaJR91/react-portfolio/static/media/jan.0514702a.jpg",
+    "static/media/password.775ce804.png": "/CivicaJR91/react-portfolio/static/media/password.775ce804.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7bdceb0.js",
+    "static/js/2.7d6b122a.chunk.js",
+    "static/css/main.4aa2dbea.chunk.css",
+    "static/js/main.31971348.chunk.js"
+  ]
+}
